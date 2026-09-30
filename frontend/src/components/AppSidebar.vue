@@ -104,11 +104,11 @@ const data = {
 
     <SidebarContent>
       <NavMain :items="data.navMain" />
-      <NavSecondary :items="data.navSecondary" class="mt-auto" />
+      <!-- <NavSecondary :items="data.navSecondary" class="mt-auto" /> -->
     </SidebarContent>
 
     <SidebarFooter>
-      <NavUser :user="data.user" />
+      <!-- <NavUser :user="data.user" /> -->
     </SidebarFooter>
   </Sidebar>
 </template>

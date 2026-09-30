@@ -29,11 +29,6 @@ const pageTitle = computed(() => {
       </div>
 
       <div class="ml-auto flex items-center gap-3">
-        <Badge variant="outline" class="hidden sm:inline-flex items-center gap-1.5 text-xs text-muted-foreground border-emerald-500/30 bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">
-          <span class="size-1.5 rounded-full bg-emerald-500 animate-pulse" />
-          <span>Yard Portal Live</span>
-        </Badge>
-
         <Button variant="ghost" size="icon" class="size-8 text-muted-foreground">
           <IconBell class="size-4" />
           <span class="sr-only">Notifications</span>
