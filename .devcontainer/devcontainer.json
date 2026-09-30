@@ -1,0 +1,26 @@
+{
+  "name": "Dev Environment",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "dev-workspace",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Vue.volar",
+        "ms-azuretools.vscode-docker",
+        "editorconfig.editorconfig",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "forwardPorts": [
+    5173,
+    3000,
+    3306
+  ],
+  "remoteUser": "root"
+}
