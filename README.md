@@ -12,7 +12,7 @@
    ```bash
    pnpm dev
    ```
-4. *(Opsional)* Untuk melakukan build:
+4. *(Opsional)*:
    ```bash
    pnpm build
    pnpm start
@@ -34,11 +34,7 @@
    ```bash
    pnpm dev
    ```
-4. *(Opsional)* Untuk melakukan pengujian type checking dan build produksi frontend:
+4. *(Opsional)*:
    ```bash
    pnpm build
-   ```
-   Hasil build akan tersimpan di folder `frontend/dist/`. Untuk melihat preview hasil build:
-   ```bash
-   pnpm preview
    ```
